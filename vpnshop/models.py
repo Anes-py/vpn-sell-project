@@ -5,6 +5,9 @@ class ServersLocations(models.Model):
     name = models.CharField(_("name"), max_length=155)
     ping = models.PositiveIntegerField(_("ping"))
     server_load = models.PositiveIntegerField(_("server load"))
+    is_active = models.BooleanField(_("is active"), default=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.name
@@ -17,6 +20,9 @@ class Product(models.Model):
     server_locations_count = models.PositiveIntegerField(_("server locations_count"))
     plan_link = models.URLField()
     plan_price = models.PositiveIntegerField(_("price"))
+    is_active = models.BooleanField(_("is active"), default=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.name
