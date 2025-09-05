@@ -1,4 +1,5 @@
-cd vpn-website && echo '<!DOCTYPE html>
+<!DOCTYPE html>
+{% load i18n %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -53,13 +54,13 @@ cd vpn-website && echo '<!DOCTYPE html>
 
                 <!-- Desktop Menu -->
                 <div class="hidden md:flex items-center space-x-8">
-                    <a href="#home" class="hover:text-blue-400 transition-colors">Home</a>
-                    <a href="#features" class="hover:text-blue-400 transition-colors">Features</a>
-                    <a href="#pricing" class="hover:text-blue-400 transition-colors">Pricing</a>
-                    <a href="#servers" class="hover:text-blue-400 transition-colors">Servers</a>
-                    <a href="#contact" class="hover:text-blue-400 transition-colors">Contact</a>
+                    <a href="#home" class="hover:text-blue-400 transition-colors">{% trans 'Home' %}</a>
+                    <a href="#features" class="hover:text-blue-400 transition-colors">{% trans 'Features' %}</a>
+                    <a href="#pricing" class="hover:text-blue-400 transition-colors">{% trans 'Pricing' %}</a>
+                    <a href="#servers" class="hover:text-blue-400 transition-colors">{% trans 'Servers' %}</a>
+                    <a href="#contact" class="hover:text-blue-400 transition-colors">{% trans 'Contact' %}</a>
                     <button class="bg-gradient-to-r from-blue-500 to-purple-600 px-6 py-2 rounded-full hover:from-blue-600 hover:to-purple-700 transition-all duration-300">
-                        Get Started
+                        {% trans 'Get Started' %}
                     </button>
                 </div>
 
@@ -72,13 +73,13 @@ cd vpn-website && echo '<!DOCTYPE html>
             <!-- Mobile Menu -->
             <div id="mobile-menu" class="md:hidden mt-4 pb-4 hidden">
                 <div class="flex flex-col space-y-4">
-                    <a href="#home" class="hover:text-blue-400 transition-colors">Home</a>
-                    <a href="#features" class="hover:text-blue-400 transition-colors">Features</a>
-                    <a href="#pricing" class="hover:text-blue-400 transition-colors">Pricing</a>
-                    <a href="#servers" class="hover:text-blue-400 transition-colors">Servers</a>
-                    <a href="#contact" class="hover:text-blue-400 transition-colors">Contact</a>
+                    <a href="#home" class="hover:text-blue-400 transition-colors">{% trans 'Home' %}</a>
+                    <a href="#features" class="hover:text-blue-400 transition-colors">{% trans 'Features' %}</a>
+                    <a href="#pricing" class="hover:text-blue-400 transition-colors">{% trans 'Pricing' %}</a>
+                    <a href="#servers" class="hover:text-blue-400 transition-colors">{% trans 'Servers' %}</a>
+                    <a href="#contact" class="hover:text-blue-400 transition-colors">{% trans 'Contact' %}</a>
                     <button class="bg-gradient-to-r from-blue-500 to-purple-600 px-6 py-2 rounded-full hover:from-blue-600 hover:to-purple-700 transition-all duration-300 w-fit">
-                        Get Started
+                        {% trans 'Get Started' %}
                     </button>
                 </div>
             </div>
@@ -99,8 +100,7 @@ cd vpn-website && echo '<!DOCTYPE html>
                         <span class="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">ParhamVPN</span>
                     </div>
                     <p class="text-gray-400 mb-4 max-w-md">
-                        The most trusted VPN service provider with military-grade encryption and zero-log policy.
-                        Protect your privacy and browse securely from anywhere in the world.
+                        {% trans 'The most trusted VPN service provider with military-grade encryption and zero-log policy. Protect your privacy and browse securely from anywhere in the world.' %}
                     </p>
                     <div class="flex space-x-4">
                         <a href="#" class="text-gray-400 hover:text-white transition-colors">
@@ -119,22 +119,22 @@ cd vpn-website && echo '<!DOCTYPE html>
                 </div>
 
                 <div>
-                    <h3 class="text-lg font-semibold mb-4">Product</h3>
+                    <h3 class="text-lg font-semibold mb-4">{% trans 'Product' %}</h3>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Features</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Pricing</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Download</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Server Status</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">{% trans 'Features' %}</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">{% trans 'Pricing' %}</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">{% trans 'Download' %}</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">{% trans 'Server Status' %}</a></li>
                     </ul>
                 </div>
 
                 <div>
-                    <h3 class="text-lg font-semibold mb-4">Support</h3>
+                    <h3 class="text-lg font-semibold mb-4">{% trans 'Support' %}</h3>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Help Center</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Contact Us</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Terms of Use</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">{% trans 'Help Center' %}</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">{% trans 'Contact Us' %}</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">{% trans 'Privacy Policy' %}</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">{% trans 'Terms of Use' %}</a></li>
                     </ul>
                 </div>
             </div>
@@ -142,12 +142,12 @@ cd vpn-website && echo '<!DOCTYPE html>
             <div class="border-t border-gray-800 pt-8">
                 <div class="flex flex-col md:flex-row justify-between items-center">
                     <p class="text-gray-400 text-sm">
-                        © 2024 ParhamVPN. All rights reserved.
+                        {% trans '© 2025 ParhamVPN. All rights reserved.' %}
                     </p>
                     <div class="flex space-x-6 mt-4 md:mt-0">
-                        <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</a>
-                        <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Terms of Use</a>
-                        <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Cookie Policy</a>
+                        <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">{% trans 'Privacy Policy' %}</a>
+                        <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">{% trans 'Terms of Use' %}</a>
+                        <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">{% trans 'Cookie Policy' %}</a>
                     </div>
                 </div>
             </div>
