@@ -76,7 +76,7 @@ msgstr "امنیت"
 
 #: .\templates\vpnshop\home.html:17
 msgid "Digital Life"
-msgstr "زندگی دیجیتال"
+msgstr "زندگی دیجیتال خود را"
 
 #: .\templates\vpnshop\home.html:21
 msgid "Experience lightning-fast, ultra-secure VPN service with military-grade encryption and zero-log policy."

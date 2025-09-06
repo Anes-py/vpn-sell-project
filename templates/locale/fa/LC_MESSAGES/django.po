@@ -43,7 +43,7 @@ msgid ""
 "The most trusted VPN service provider with military-grade encryption and "
 "zero-log policy. Protect your privacy and browse securely from anywhere in "
 "the world."
-msgstr "معتبرترین ارائه‌دهنده VPN با رمزگذاری سطح نظامی و سیاست بدون لاگ. حریم خصوصی خود را حفظ کنید و با امنیت کامل از هر نقطه دنیا وب‌گردی کنید."
+msgstr "تجربه سرویس VPN فوق‌العاده سریع و امن با رمزگذاری سطح نظامی و سیاست بدون ثبت لاگ. حریم خصوصی خود را حفظ کنید و از هر نقطه دنیا با امنیت کامل وب‌گردی کنید."
 
 #: .\templates\_base.html:122
 msgid "Product"
@@ -79,7 +79,7 @@ msgstr "شرایط استفاده"
 
 #: .\templates\_base.html:145
 msgid "© 2025 ParhamVPN. All rights reserved."
-msgstr "© ۲۰۲۵ پارام‌وی‌پی‌ان. همه حقوق محفوظ است."
+msgstr "© ۲۰۲۵ پرهام وی‌پی‌ان. همه حقوق محفوظ است."
 
 #: .\templates\_base.html:150
 msgid "Cookie Policy"
@@ -135,15 +135,16 @@ msgstr "قیمت"
 
 #: .\vpnshop\templates\vpnshop\home.html:5
 msgid "Home|Parham-Vpn"
-msgstr "خانه | پارام‌وی‌پی‌ان"
+msgstr "خانه | پرهام وی‌پی‌ان"
 
 #: .\vpnshop\templates\vpnshop\home.html:15
 msgid "Secure Your"
-msgstr "امن کنید"
+msgstr "زندگی دیجیتال خود را"
+
 
 #: .\vpnshop\templates\vpnshop\home.html:17
 msgid "Digital Life"
-msgstr "زندگی دیجیتال"
+msgstr "امن کنید"
 
 #: .\vpnshop\templates\vpnshop\home.html:21
 msgid ""
@@ -173,7 +174,7 @@ msgstr "کاربران"
 
 #: .\vpnshop\templates\vpnshop\home.html:60
 msgid "Why Choose"
-msgstr "چرا انتخاب کنید"
+msgstr "چرا"
 
 #: .\vpnshop\templates\vpnshop\home.html:63
 msgid ""
@@ -183,13 +184,13 @@ msgstr "ویژگی‌های امنیتی پیشرفته برای حفاظت از
 
 #: .\vpnshop\templates\vpnshop\home.html:73
 msgid "Lightning Fast Speed"
-msgstr "سرعت فوق‌العاده سریع"
+msgstr "سرعت فوق‌العاده سریع و سرور های تانل شده "
 
 #: .\vpnshop\templates\vpnshop\home.html:74
 msgid ""
-"Experience blazing-fast connection speeds with our optimized global server "
+"Experience blazing-fast connection speeds with our Tunnel global server "
 "network."
-msgstr "سرعت اتصال فوق‌العاده سریع را با شبکه سرور جهانی بهینه‌سازی شده ما تجربه کنید."
+msgstr "سرعت اتصال فوق‌العاده سریع را با شبکه سرور جهانی بهینه‌سازی و تانل شده ما تجربه کنید."
 
 #: .\vpnshop\templates\vpnshop\home.html:76
 msgid "Up to 1Gbps"
@@ -228,8 +229,8 @@ msgid "Global Locations"
 msgstr "موقعیت‌های جهانی"
 
 #: .\vpnshop\templates\vpnshop\home.html:113
-msgid "Access content from anywhere with servers in 50+ countries worldwide."
-msgstr "با سرورهای موجود در بیش از ۵۰ کشور، از هر نقطه به محتوا دسترسی داشته باشید."
+msgid "Access content from anywhere with servers in 10+ countries worldwide."
+msgstr "با سرورهای موجود در بیش از 10 کشور، از هر نقطه به محتوا دسترسی داشته باشید."
 
 #: .\vpnshop\templates\vpnshop\home.html:115
 msgid "50+ Countries"
@@ -263,11 +264,11 @@ msgstr "همیشه در دسترس"
 
 #: .\vpnshop\templates\vpnshop\home.html:154
 msgid "Choose Your"
-msgstr "انتخاب کنید"
+msgstr "پلن مناسب"
 
 #: .\vpnshop\templates\vpnshop\home.html:154
 msgid "Perfect Plan"
-msgstr "پلن مناسب"
+msgstr "انتخاب"
 
 #: .\vpnshop\templates\vpnshop\home.html:157
 msgid ""
@@ -301,12 +302,12 @@ msgstr "انتخاب پلن"
 
 #: .\vpnshop\templates\vpnshop\home.html:217
 msgid "Global"
-msgstr "جهانی"
+msgstr "شبکه سرورها"
+
 
 #: .\vpnshop\templates\vpnshop\home.html:217
 msgid "Server Network"
-msgstr "شبکه سرورها"
-
+msgstr "جهانی"
 #: .\vpnshop\templates\vpnshop\home.html:220
 msgid ""
 "Connect to our high-performance servers worldwide for the best possible "
@@ -336,8 +337,8 @@ msgid ""
 msgstr "به صد ها کاربری بپیوندید که برای حفظ حریم خصوصی و امنیت آنلاینشان به ParhamVPN اعتماد کرده‌اند."
 
 #: .\vpnshop\templates\vpnshop\home.html:274
-msgid "Download Now"
-msgstr "همین حالا دانلود کنید"
+msgid "Test Now"
+msgstr "دریافت تست رایگان"
 
 #: .\vpnshop\templates\vpnshop\home.html:278
 msgid "Contact on Telegram"
