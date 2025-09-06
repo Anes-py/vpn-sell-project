@@ -264,11 +264,11 @@ msgstr "همیشه در دسترس"
 
 #: .\vpnshop\templates\vpnshop\home.html:154
 msgid "Choose Your"
-msgstr "پلن مناسب"
+msgstr "انتخاب"
 
 #: .\vpnshop\templates\vpnshop\home.html:154
 msgid "Perfect Plan"
-msgstr "انتخاب"
+msgstr "پلن مناسب"
 
 #: .\vpnshop\templates\vpnshop\home.html:157
 msgid ""
@@ -302,12 +302,12 @@ msgstr "انتخاب پلن"
 
 #: .\vpnshop\templates\vpnshop\home.html:217
 msgid "Global"
-msgstr "شبکه سرورها"
+msgstr "شبکه جهانی"
 
 
 #: .\vpnshop\templates\vpnshop\home.html:217
 msgid "Server Network"
-msgstr "جهانی"
+msgstr " سرورها"
 #: .\vpnshop\templates\vpnshop\home.html:220
 msgid ""
 "Connect to our high-performance servers worldwide for the best possible "
