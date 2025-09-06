@@ -1,0 +1,271 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-06 13:44+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+#: .\models.py:5 .\models.py:19
+#: .\models.py:5 .\models.py:19
+msgid "name"
+msgstr "نام"
+
+#: .\models.py:6
+msgid "name2"
+msgstr "نام دوم"
+
+#: .\models.py:7
+msgid "region"
+msgstr "منطقه"
+
+#: .\models.py:8
+msgid "ping"
+msgstr "پینگ"
+
+#: .\models.py:9
+msgid "server load"
+msgstr "بار سرور"
+
+#: .\models.py:10 .\models.py:26
+msgid "is active"
+msgstr "فعال است"
+
+#: .\models.py:20
+msgid "data limit"
+msgstr "محدودیت داده"
+
+#: .\models.py:20 .\models.py:21 .\models.py:22
+msgid "unlimited:0"
+msgstr "نامحدود:۰"
+
+#: .\models.py:21
+msgid "time limit"
+msgstr "محدودیت زمانی"
+
+#: .\models.py:22 .\templates\vpnshop\home.html:188
+msgid "device connections"
+msgstr "اتصالات دستگاه‌ها"
+
+#: .\models.py:23
+msgid "server locations_count"
+msgstr "تعداد موقعیت‌های سرور"
+
+#: .\models.py:25
+msgid "price"
+msgstr "قیمت"
+
+#: .\templates\vpnshop\home.html:5
+msgid "Home|Parham-Vpn"
+msgstr "خانه | پرهام وی‌پی‌ان"
+
+#: .\templates\vpnshop\home.html:15
+msgid "Secure Your"
+msgstr "امنیت"
+
+#: .\templates\vpnshop\home.html:17
+msgid "Digital Life"
+msgstr "زندگی دیجیتال"
+
+#: .\templates\vpnshop\home.html:21
+msgid "Experience lightning-fast, ultra-secure VPN service with military-grade encryption and zero-log policy."
+msgstr "تجربه سرویس وی‌پی‌ان فوق‌العاده سریع و امن با رمزنگاری نظامی و سیاست بدون ثبت لاگ."
+
+#: .\templates\vpnshop\home.html:26
+msgid "Get Started Now"
+msgstr "همین حالا شروع کنید"
+
+#: .\templates\vpnshop\home.html:30
+msgid "Watch Demo"
+msgstr "تست رایگان"
+
+#: .\templates\vpnshop\home.html:36
+msgid "Countries"
+msgstr "کشورها"
+
+#: .\templates\vpnshop\home.html:40
+msgid "Servers"
+msgstr "سرورها"
+
+#: .\templates\vpnshop\home.html:44
+msgid "Uptime"
+msgstr "زمان آنلاین بودن"
+
+#: .\templates\vpnshop\home.html:48
+msgid "Users"
+msgstr "کاربران"
+
+#: .\templates\vpnshop\home.html:60
+msgid "Why Choose"
+msgstr "چرا؟"
+
+#: .\templates\vpnshop\home.html:63
+msgid "Advanced security features designed to protect your privacy and ensure seamless browsing experience."
+msgstr "ویژگی‌های پیشرفته امنیتی برای حفاظت از حریم خصوصی شما و تجربه مرور بدون وقفه طراحی شده‌اند."
+
+#: .\templates\vpnshop\home.html:73
+msgid "Lightning Fast Speed"
+msgstr "سرعت فوق‌العاده سریع"
+
+#: .\templates\vpnshop\home.html:74
+msgid "Experience blazing-fast connection speeds with our optimized global server network."
+msgstr "تجربه سرعت اتصال بسیار بالا با شبکه جهانی سرورهای بهینه‌شده ما."
+
+
+#: .\templates\vpnshop\home.html:76
+msgid "Up to 1Gbps"
+msgstr "تا ۱ گیگابیت بر ثانیه"
+
+#: .\templates\vpnshop\home.html:86
+msgid "Military-Grade Security"
+msgstr "امنیت درجه نظامی"
+
+#: .\templates\vpnshop\home.html:87
+msgid "AES-256 encryption and advanced protocols to keep your data completely secure."
+msgstr "رمزنگاری AES-256 و پروتکل‌های پیشرفته برای حفظ امنیت کامل داده‌های شما."
+
+#: .\templates\vpnshop\home.html:89
+msgid "AES-256 Encryption"
+msgstr "رمزنگاری AES-256"
+
+#: .\templates\vpnshop\home.html:99
+msgid "Zero-Log Policy"
+msgstr "سیاست بدون ثبت لاگ"
+
+#: .\templates\vpnshop\home.html:100
+msgid "We never track, collect, or store your personal data or browsing activity."
+msgstr "ما هرگز داده‌های شخصی یا فعالیت مرور شما را ردیابی، جمع‌آوری یا ذخیره نمی‌کنیم."
+
+#: .\templates\vpnshop\home.html:102
+msgid "100%% Anonymous"
+msgstr "۱۰۰٪ ناشناس"
+
+#: .\templates\vpnshop\home.html:112
+msgid "Global Locations"
+msgstr "موقعیت‌های جهانی"
+
+#: .\templates\vpnshop\home.html:113
+msgid "Access content from anywhere with servers in 50+ countries worldwide."
+msgstr "دسترسی به محتوا از هر نقطه با سرورهای ما در بیش از ۵۰ کشور جهان."
+
+#: .\templates\vpnshop\home.html:115
+msgid "50+ Countries"
+msgstr "بیش از ۵۰ کشور"
+
+#: .\templates\vpnshop\home.html:125
+msgid "Multi-Platform"
+msgstr "چند سکویی"
+
+#: .\templates\vpnshop\home.html:126
+msgid "Compatible with all devices - Windows, Mac, iOS, Android, and more."
+msgstr "سازگار با همه دستگاه‌ها - ویندوز، مک، آی‌اواس، اندروید و غیره."
+
+#: .\templates\vpnshop\home.html:128
+msgid "All Devices"
+msgstr "تمام دستگاه‌ها"
+
+#: .\templates\vpnshop\home.html:138 .\templates\vpnshop\home.html:197
+msgid "24/7 Support"
+msgstr "پشتیبانی ۲۴ ساعته"
+
+#: .\templates\vpnshop\home.html:139
+msgid "Round-the-clock customer support to help you with any questions or issues."
+msgstr "پشتیبانی مشتریان به صورت شبانه‌روزی برای پاسخ به هر سوال یا مشکل شما."
+
+#: .\templates\vpnshop\home.html:141
+msgid "Always Available"
+msgstr "همیشه در دسترس"
+
+#: .\templates\vpnshop\home.html:154
+msgid "Choose Your"
+msgstr "پلن خود را"
+
+#: .\templates\vpnshop\home.html:154
+msgid "Perfect Plan"
+msgstr "انتخاب کنید"
+
+#: .\templates\vpnshop\home.html:157
+msgid "Flexible pricing options to suit your needs. All plans include our premium features."
+msgstr "گزینه‌های قیمت‌گذاری انعطاف‌پذیر مطابق نیاز شما. تمام طرح‌ها شامل ویژگی‌های پرمیوم ما هستند."
+
+#: .\templates\vpnshop\home.html:167
+msgid "Irt"
+msgstr "تومان"
+
+#: .\templates\vpnshop\home.html:169
+msgid "Unlimited data"
+msgstr "داده نامحدود"
+
+#: .\templates\vpnshop\home.html:178
+msgid "Unlimited time"
+msgstr "زمان نامحدود"
+
+#: .\templates\vpnshop\home.html:186
+msgid "Unlimited device connections"
+msgstr "اتصالات دستگاه نامحدود"
+
+#: .\templates\vpnshop\home.html:193
+msgid "Server Locations"
+msgstr "مکان‌های سرور"
+
+#: .\templates\vpnshop\home.html:202
+msgid "Choose Plan"
+msgstr "انتخاب طرح"
+
+#: .\templates\vpnshop\home.html:217
+msgid "Global"
+msgstr "شبکه جهانی"
+
+#: .\templates\vpnshop\home.html:217
+msgid "Server Network"
+msgstr "سرورها"
+
+#: .\templates\vpnshop\home.html:220
+msgid "Connect to our high-performance servers worldwide for the best possible experience."
+msgstr "به سرورهای پرقدرت ما در سراسر جهان متصل شوید تا بهترین تجربه ممکن را داشته باشید."
+
+#: .\templates\vpnshop\home.html:240
+msgid "Ping"
+msgstr "پینگ"
+
+#: .\templates\vpnshop\home.html:245
+msgid "Server Load"
+msgstr "بار سرور"
+
+#: .\templates\vpnshop\home.html:253
+msgid "Connect"
+msgstr "اتصال"
+
+#: .\templates\vpnshop\home.html:266
+msgid "Ready to Get Started?"
+msgstr "آماده شروع هستید؟"
+
+#: .\templates\vpnshop\home.html:269
+msgid "Join millions of users who trust ParhamVPN for their online privacy and security needs."
+msgstr "به هزاران کاربری بپیوندید که برای حفظ حریم خصوصی و امنیت آنلاین خود به ParhamVPN اعتماد دارند."
+
+#: .\templates\vpnshop\home.html:274
+msgid "Download Now"
+msgstr "دریافت تست رایگان"
+
+#: .\templates\vpnshop\home.html:278
+msgid "Contact on Telegram"
+msgstr "ارتباط از طریق تلگرام"
+
+#: .\templates\vpnshop\home.html:282
+msgid "Need help? Our support team is here for you 24/7"
+msgstr "نیاز به کمک دارید؟ تیم پشتیبانی ما ۲۴ ساعته در خدمت شماست"
+
+msgid "Free Demo"
+msgstr "تست رایگان"
